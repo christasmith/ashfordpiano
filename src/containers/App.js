@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import '../css/App.css';
+import Nav from '../components/Nav.js';
+import section1 from '../components/section1.js';
+
+
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+            <Nav></Nav>
+            <section1></section1>
       </div>
     );
   }
