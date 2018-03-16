@@ -1,6 +1,5 @@
 import React from 'react';
 import tuning from '../css/tune.jpeg'
-import june from '../css/june.jpeg'
 
 const SectionB = () => {
     return (
@@ -26,7 +25,7 @@ const SectionB = () => {
                 </li>
                 <li>
                     <div className="card">
-                        <img src={june} alt=""/>
+                        <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt=""/>
                             <div className="card-content">
                                 <h3 className="card-title">Piano Servicing</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
