@@ -11,11 +11,15 @@ const Nav = () => {
             </a>
 
             <a href="#section-form">
-                <li>Contact Us</li>
+                <li>Contact Me</li>
             </a>
 
             <a href="#section-b">
-                <li>About</li>
+                <li>About Me</li>
+            </a>
+
+            <a href="#section-b">
+                <li>Recommendations</li>
             </a>
         </ul>
 
