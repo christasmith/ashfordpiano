@@ -24,11 +24,9 @@ class App extends Component {
           <Nav> </Nav>
           <Banner/>
           <SectionB/>
-          <hr/>
-
           <SectionC/>
-          {/*<Form/>*/}
-          <Footer/>
+          <Form/>
+          {/*<Footer/>*/}
       </div>
     );
   }

@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
-  background: #333;
+  background: #444;
   color: whitesmoke;
   font-size: 1.1em;
   line-height: 1.5;
@@ -61,7 +61,6 @@ p {
 #showcase {
   min-height: 40%;
   color: whitesmoke;
-
   text-align: center;
 }
 #showcase .bg-image {
@@ -82,6 +81,12 @@ p {
   color: whitesmoke;
   margin-bottom: 1rem;
 }
+
+.bg-title-small{
+  padding:0;
+  margin: 0;
+}
+
 #showcase .content-wrap {
   padding: 0 3em;
 }
@@ -113,6 +118,19 @@ p {
   padding: 0.5em;
 }
 
+.section-c{
+  padding:2em 1em 1em;
+  color: white;
+  border-radius: 1rem;
+}
+.section-c hr{
+  width:50%;
+}
+
+.section-c p{
+  padding-bottom: 2rem;
+}
+
 #main-footer ul{
   list-style: none;
   display: inline-flex;
@@ -120,16 +138,6 @@ p {
   width: 100%;
 }
 
-.bg-title-small{
-  padding:0;
-  margin: 0;
-}
-
-.section-c{
-  color: black;
-  padding:1rem;
-  background-color: whitesmoke;
-}
 
 @media (min-width: 700px) {
   .grid {

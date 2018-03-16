@@ -1,5 +1,8 @@
 import React from 'react';
 import tuning from '../css/tune.jpeg'
+import serv from '../css/serv.jpg'
+import repairs from '../css/repairs.jpg'
+
 
 const SectionB = () => {
     return (
@@ -16,7 +19,7 @@ const SectionB = () => {
                 </li>
                 <li>
                     <div className="card">
-                        <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt=""/>
+                        <img src={repairs} alt=""/>
                             <div className="card-content">
                                 <h3 className="card-title">Repairs</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
@@ -25,7 +28,7 @@ const SectionB = () => {
                 </li>
                 <li>
                     <div className="card">
-                        <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt=""/>
+                        <img src={serv} alt=""/>
                             <div className="card-content">
                                 <h3 className="card-title">Piano Care Advice</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
