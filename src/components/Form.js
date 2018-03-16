@@ -2,6 +2,9 @@
  * Created by christasmith on 3/15/18.
  */
 import React from 'react';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faAddressCard} from '@fortawesome/fontawesome-free-solid'
+
 
 
 class ReactFormLabel extends React.Component {
@@ -94,7 +97,7 @@ class ReactForm extends React.Component {
         return(
             <div className="form-container">
             <form className='form' onSubmit={this.handleSubmit}>
-            <h3>Contact Us</h3>
+            <h3>Contact Us <FontAwesomeIcon  icon={faAddressCard}  color="brown" className="icon" /></h3>
                         <div className="row">
                             <div className="label">
                                 <label for="name">First Name</label>
