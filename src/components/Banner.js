@@ -2,13 +2,12 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <!-- Header Showcase -->
-        <header id="showcase" class="grid">
-            <div class="bg-image"></div>
-            <div class="content-wrap">
-                <h1>Welcome to Acme Web Solutions</h1>
+        <header id="showcase" className="grid">
+            <div className="bg-image"></div>
+            <div className="content-wrap">
+                <h1 className="bg-title">David Ashford Piano Tuning</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.</p>
-                <a href="#section-b" class="btn">Read More</a>
+                <a href="#section-b" className="btn">Read More</a>
             </div>
         </header>
 
