@@ -1,6 +1,4 @@
 import React from 'react';
-import tuning from '../css/tune.jpeg'
-import june from '../css/june.jpeg'
 
 const SectionB = () => {
     return (
