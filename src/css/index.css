@@ -166,3 +166,10 @@ p {
     padding-top: 2rem;
   }
 }
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+
+

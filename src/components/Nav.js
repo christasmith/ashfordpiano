@@ -6,18 +6,17 @@ const Nav = () => {
     return (
         <nav>
         <ul>
-            <li>
-                Home
-            </li>
+            <a href="#showcase">
+                <li>Home</li>
+            </a>
 
-            <li>
-                About
-            </li>
+            <a href="#section-form">
+                <li>Contact Us</li>
+            </a>
 
-            <li>
-                Contact
-            </li>
-
+            <a href="#section-b">
+                <li>About</li>
+            </a>
         </ul>
 
         </nav>
