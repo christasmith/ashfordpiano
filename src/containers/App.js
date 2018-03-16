@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
 import '../css/App.css';
+import '../css/index.css';
+import Banner from '../components/Banner.js';
+import Nav from '../components/Nav.js';
+import SectionA from '../components/SectionA.js';
+import SectionB from '../components/SectionB.js';
+import Form from '../components/Form.js';
+
+import 'font-awesome/css/font-awesome.min.css'
+
+
+
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <Nav> </Nav>
+            <Banner></Banner>
+          <SectionA></SectionA>
+          <SectionB></SectionB>
+          <SectionB></SectionB>
+          <Form></Form>
       </div>
     );
   }
