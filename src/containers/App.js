@@ -6,6 +6,8 @@ import Nav from '../components/Nav.js';
 import SectionB from '../components/SectionB.js';
 import SectionC from '../components/SectionC.js';
 import Form from '../components/Form.js';
+import Recommendations from '../components/Recommendations.js';
+
 import Footer from '../components/Footer.js';
 
 
@@ -25,7 +27,10 @@ class App extends Component {
           <Banner/>
           <SectionB/>
           <SectionC/>
+          <Recommendations/>
+          {/*<p> ADD IN THE ICONS HERE </p>*/}
           <Form/>
+
           {/*<Footer/>*/}
       </div>
     );
