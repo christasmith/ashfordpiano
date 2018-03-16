@@ -97,7 +97,7 @@ class ReactForm extends React.Component {
         return(
             <div id="section-form"className="form-container">
             <form className='form' onSubmit={this.handleSubmit}>
-            <h3>Contact Us <FontAwesomeIcon  icon={faAddressCard}  color="brown" className="icon" /></h3>
+            <h3>Contact Us</h3>
                         <div className="row">
                             <div className="label">
                                 <label for="name">First Name</label>

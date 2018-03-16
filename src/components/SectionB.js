@@ -9,7 +9,7 @@ const SectionB = () => {
                     <div className="card">
                         <img src={tuning}/>
                             <div className="card-content">
-                                <h3 className="card-title">Piano Tuning</h3>
+                                <h3 className="card-title">Tuning</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
                             </div>
                     </div>
@@ -18,7 +18,7 @@ const SectionB = () => {
                     <div className="card">
                         <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt=""/>
                             <div className="card-content">
-                                <h3 className="card-title">Consulting</h3>
+                                <h3 className="card-title">Repairs</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
                             </div>
                     </div>
@@ -27,7 +27,7 @@ const SectionB = () => {
                     <div className="card">
                         <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt=""/>
                             <div className="card-content">
-                                <h3 className="card-title">Piano Servicing</h3>
+                                <h3 className="card-title">Piano Care Advice</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
                             </div>
                     </div>

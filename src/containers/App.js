@@ -24,8 +24,10 @@ class App extends Component {
           <Nav> </Nav>
           <Banner/>
           <SectionB/>
+          <hr/>
+
           <SectionC/>
-          <Form/>
+          {/*<Form/>*/}
           <Footer/>
       </div>
     );
